@@ -61,4 +61,12 @@
 .evenement li {
   list-style: none;
 }
+
+.postSlug {
+  color: red;
+}
+
+.postAuthor {
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */

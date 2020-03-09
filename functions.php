@@ -26,4 +26,16 @@ function extraire_nouvelles($query) {
     }
 }
 add_action('pre_get_posts', 'extraire_nouvelles');
+
+
+// Extraire ateliers
+function extraire_ateliers($query) {
+    if ($query->is_category('atelier')) {
+        $query->set('posts_per_page', 16);
+        $query->set('orderby', 'title');
+        $query->set('order', 'asc');
+    }
+}
+add_action('pre_get_posts', 'extraire_ateliers');
 ?>
+
