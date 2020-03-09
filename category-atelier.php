@@ -25,11 +25,9 @@ while ( have_posts() ) :
     $nom = get_post_field('post_name');
     $author = get_the_author_meta( 'display_name', $post->post_author );
     $gridArea = $nom . '/' . $author . '/';
+    $entete = $author;
 
-    
-
-
-    echo '<p  style="grid-area:'. $gridArea .'">'.$gridArea = get_the_title().$nom.$author. '</p>';
+    echo '<p  style="grid-area:'. $gridArea .'">'.$gridArea = $entete.get_the_title().$nom.$author. '</p>';
 endwhile;
 
     

@@ -138,6 +138,11 @@
   max-width: 1140px;
 }
 
+.grid-atelier p {
+  text-align: center;
+  margin: auto 0;
+}
+
 .postSlug {
   color: red;
 }

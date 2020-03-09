@@ -35,10 +35,14 @@
     height: 100vh;
     margin: 0 auto;
     max-width: 1140px;
-}
 
-.atelier {
-    li {
-        // display: flex;
+    p {
+        text-align: center;
+        margin: auto 0;
     }
+
+    // .entete{
+    //     background-color: $darken($color_red,2%);
+    // }
+
 }
