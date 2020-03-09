@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Examen-underscores
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Examen-underscores Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     underscores
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  examen-underscores
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Content
+	## Posts and pages
+	## Comments
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.grid-container h2 {
+  border: 1px solid blue;
+}
+
+.conference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.conference img {
+  margin-right: 1rem;
+  width: 15rem;
+}
+
+.evenement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.evenement li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
