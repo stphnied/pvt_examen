@@ -9,10 +9,12 @@
     get_header();
 ?>
 
+<!-- Titre de la page -->
 <?php      
-    // echo "<h2>" . category_description(get_category_by_slug('atelier')) . "</h2>"; 
+    echo "<h2>" . category_description(get_category_by_slug('atelier')) . "</h2>"; 
 ?>
-		
+
+<!-- Affichage des ateliers -->
 <section class="grid-atelier">
     <?php
 
